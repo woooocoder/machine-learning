@@ -1,0 +1,14 @@
+#install.packages("ISLR2")
+library(ISLR2)
+help(package = "ISLR2")
+
+Advertising <- read.csv('./Advertising.csv', row.names=1)
+
+str(Advertising)
+Advertising$TV
+Advertising[,"TV"]
+
+plot(Advertising)
+TV
+
+detatch(Advertising)
